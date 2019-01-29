@@ -1,0 +1,66 @@
+#leftcol {
+    background-color: #F6AE2D;
+}
+
+.dp {
+    border-radius: 50%;
+    margin-left: 13.5em;
+}
+
+ul {
+    list-style: none;
+}
+
+#leftcol h3 {
+    color: #33658A;
+    text-align: center;
+}
+
+#leftcol h5 {
+    color #2F4858;
+    text-align: center;
+}
+
+#resumehead .surname {
+    color: #F6AE2D;
+}
+
+#resumehead h3 {
+    color: #33658A;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+#resumehead h5 {
+    color: #33658A;
+    font-size: 1em;
+}
+
+#objective h3 {
+    color:cadetblue;
+}
+
+#education h3 {
+    color: cadetblue;
+    margin-top: 2em;
+}
+
+#researchpaperprepared h3 {
+    color: cadetblue;
+    margin-top: 2em;
+}
+
+#personalbackground h3 {
+    color: cadetblue;
+    margin-top: 2em;
+}
+
+#references h3 {
+    color: cadetblue;
+    margin-top: 2em;
+}
+
+.container {
+    padding-left: 0;
+    margin-left: 0;    
+}
