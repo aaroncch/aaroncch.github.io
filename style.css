@@ -1,102 +1,66 @@
-/***HOME PAGE***/
-
-body {
-    font-size: 100%;
-    background-image: url(bg1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+#leftcol {
+    background-color: #F6AE2D;
 }
 
-h1 {
-    color: navajowhite;
+.dp {
+    border-radius: 50%;
+    margin-left: 13.5em;
+}
+
+ul {
+    list-style: none;
+}
+
+#leftcol h3 {
+    color: #33658A;
     text-align: center;
-    margin-top: 1.5em;
-    font-family: 'Great Vibes', cursive;
-    font-style: italic;
-    font-size: 8em;
 }
 
-.read {
-    width: 3.2em;
-    padding: 0.2em;
-    margin: 0.2em auto;
-    color: navajowhite;
-    font-size: 1.5em;
-    margin-left: 55em;
-    border-radius: 0.2em;
-    font-family: 'Merienda', cursive;
-    cursor: pointer;
-    transition: 1s;
+#leftcol h5 {
+    color #2F4858;
+    text-align: center;
 }
 
-.read:hover{
-    background: navajowhite;
-    color: black;
+#resumehead .surname {
+    color: #F6AE2D;
 }
 
-/***LETTER***/
-
-.letter {
-    background-image: url(bg2.jpg);
-    background-size: contain;
-    width: 52.8%;
-    padding: 2.5em;
-    margin: 5em auto;
-    border-radius: 1em;
+#resumehead h3 {
+    color: #33658A;
+    text-transform: uppercase;
+    font-size: 3em;
 }
 
-p {
-    font-size: 1.3em;
-    color: black;
-    font-family: 'Merienda', cursive;
+#resumehead h5 {
+    color: #33658A;
+    font-size: 1em;
 }
 
-/***SCENES***/
-
-#slider {
-    overflow: hidden;
+#objective h3 {
+    color:cadetblue;
 }
 
-#slider figure {
-    position: relative;
-    width:500%;
-    margin: 0;
-    left: 0;
-    animation: 12s slider infinite;
+#education h3 {
+    color: cadetblue;
+    margin-top: 2em;
 }
 
-#slider figure img {
-    width: 20%;
-    float: left;
-    height: 125%;
+#researchpaperprepared h3 {
+    color: cadetblue;
+    margin-top: 2em;
 }
 
-@keyframes slider {
-    0% {left: 0;}
-    20% {left: 0%;}
-    25% {left: -100%;}
-    45% {left: -100%;}
-    50% {left: -200%;}
-    70% {left: -200%;}
-    75% {left: -300%;}
-    95% {left: -300%;}
-    100% {left: -400%;}
+#personalbackground h3 {
+    color: cadetblue;
+    margin-top: 2em;
 }
 
-.memories {
-    width: 6.2em;
-    padding: 0.2em;
-    margin: 0.2em auto;
-    color: navajowhite;
-    font-size: 1.5em;
-    margin-left: 55em;
-    border-radius: 0.2em;
-    font-family: 'Merienda', cursive;
-    cursor: pointer;
-    transition: 1s;
+#references h3 {
+    color: cadetblue;
+    margin-top: 2em;
 }
 
-.memories:hover{
-    background: navajowhite;
-    color: black;
+.container {
+    padding-left: 0;
+    margin-left: 0;    
 }
